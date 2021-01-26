@@ -1,12 +1,10 @@
 import org.openqa.selenium.By;
 import org.testng.Assert;
 import org.testng.annotations.Test;
-
 import static com.codeborne.selenide.Selenide.$;
 import static com.codeborne.selenide.Selenide.open;
 
 public class ShareLaneTest {
-
     String URL_MAIN = "https://www.sharelane.com ";
     String URL_REGISTER = "https://www.sharelane.com/cgi-bin/register.py";
 
